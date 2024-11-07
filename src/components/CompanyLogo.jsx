@@ -9,22 +9,22 @@ export default function Companylogo() {
   });
 
   return (
-      <div >
+      <div className="overflow-x-hidden" >
     
     <div className="overflow-x-hidden font-custom  ">
     <div className="w-screen relative py-10 lg:py-0  bg-[#FFF7E7] lg:bg-white lg:flex lg:items-center overflow-x-hidden">
       <div className="  hidden w-[100%]  lg:grid grid-cols-10 absolute z-0 overflow-hidden">
          
-      <div className="  border border-[#ffe1a4]   h-[150px]"></div>
-        <div className="border border-[#ffe1a4] h-[150px]"></div>
-        <div className="border border-[#ffe1a4]   h-[150px]"></div>
-        <div className="border border-[#ffe1a4]   h-[150px]"></div>
-        <div className="border border-[#ffe1a4]   h-[150px]"></div>
-        <div className="border border-[#ffe1a4]   h-[150px]"></div>
-        <div className="border border-[#ffe1a4]   h-[150px]"></div>
-        <div className="border border-[#ffe1a4]   h-[150px]"></div>
-        <div className="border border-[#ffe1a4]  h-[150px]"></div>
-        <div className="border border-r-0 border-[#ffe1a4]  h-[150px]"></div>
+      <div className="  border border-[#ffe1a4] border-b-0   h-[150px]"></div>
+        <div className="border border-[#ffe1a4] border-b-0  h-[150px]"></div>
+        <div className="border border-[#ffe1a4]  border-b-0   h-[150px]"></div>
+        <div className="border border-[#ffe1a4] border-b-0   h-[150px]"></div>
+        <div className="border border-[#ffe1a4] border-b-0   h-[150px]"></div>
+        <div className="border border-[#ffe1a4] border-b-0   h-[150px]"></div>
+        <div className="border border-[#ffe1a4] border-b-0   h-[150px]"></div>
+        <div className="border border-[#ffe1a4] border-b-0   h-[150px]"></div>
+        <div className="border border-[#ffe1a4] border-b-0  h-[150px]"></div>
+        <div className="border border-r-0 border-[#ffe1a4] border-b-0  h-[150px]"></div>
       </div>  
 
      
@@ -67,7 +67,7 @@ export default function Companylogo() {
 
 
     
-    <div className="hidden w-screen lg:grid grid-cols-10  z-20 overflow-x-hidden h-[80px] shadow-[0_-10px_10px_#000000]">
+    <div className="hidden w-screen  lg:grid grid-cols-10  z-20 overflow-x-hidden h-[80px] ">
   <div className="border-t border-l border-r border-[#ffe1a4] h-full"></div>
   <div className="border-t border-l border-r border-[#ffe1a4] h-full"></div>
   <div className="border-t border-l border-r border-[#ffe1a4] h-full"></div>

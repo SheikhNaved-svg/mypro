@@ -4,6 +4,7 @@ import menu2 from './menu2.png'
 import demo from './demo.png'
 import ring2 from './ring2.png'
 import chat from './chat.png'
+import a1 from './a1.png'
 import logo2 from './logo2.png'
 import logo3 from './logo3.png'
 import logo4 from './logo4.png'
@@ -31,5 +32,6 @@ import google from './google.png'
 import twitter from './twitter.png'
 import youtube from './youtube.png'
 import call from './call.png'
-import msg from './msg.png'
-export {call,msg,fb,google,twitter,youtube,contrastai,img1,img2,img3,img4,img5,img6,img7,img8,img9,chats,bigdashboard ,Pattern, dashboard,ball,shadow,howitwork,submit,chat,Exclude,demo,ring2,menu2,logo2,logo3,logo4,logo5,logo6};
+import msg from './msg.png';
+
+export {a1,call,msg,fb,google,twitter,youtube,contrastai,img1,img2,img3,img4,img5,img6,img7,img8,img9,chats,bigdashboard ,Pattern, dashboard,ball,shadow,howitwork,submit,chat,Exclude,demo,ring2,menu2,logo2,logo3,logo4,logo5,logo6};

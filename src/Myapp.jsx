@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+
 import Companylogo from "./components/CompanyLogo";
 import Dashboard from "./components/Dashboard";
 import Cards from "./components/Cards";
@@ -7,8 +7,9 @@ import Features from "./components/Features";
 import Form from "./components/Form";
 import Mission from "./components/Mission";
 import Partener from "./components/Partener";
-import Footer from './components/Footer';
+import Footer from './components/Footer'
 
+import Hero from './components/Hero'
 function Myapp() {
  
   return (
@@ -23,6 +24,8 @@ function Myapp() {
       <Partener />
       <Form />
       <Footer />
+      
+      
       
      </div>
   );
