@@ -73,10 +73,10 @@ export default function Hero() {
     <div>
       
       {/*full container*/}
-      <div className=" h-[calc(100vh-60px)] font-custom box-border">
+      <div className="w-screen  font-custom box-border">
 
         {/*sm container*/}
-        <div className="lg:hidden relative  h-[80%] px-5 pt-20 md:px-20 md:pt-28 ">
+        <div className="lg:hidden relative   px-5 py-10 md:px-20 md:pt-16 ">
 
           {/*animation*/}
           <div className=" relative opacity-[.1] flex justify-center w-[calc(100vw-40px)]">
@@ -104,30 +104,30 @@ export default function Hero() {
               </div>
               {/*third*/}
               <div className="w-full flex justify-between md:justify-center md:gap-10">
-              <button className="text-white bg-[#FFA800] px-4 py-4 rounded-full">
+              <button className="text-white bg-[#FFA800] px-4 md:px-8 py-4 rounded-full">
               Get a Demo
             </button>
 
-            <button className="text-[#FFA800] border border-[#FFA800] px-3 py-4 rounded-full">
+            <button className="text-[#FFA800] border border-[#FFA800] px-3 md:px-7 py-4 rounded-full">
               Try Free Trial
             </button>
               </div>
 
         </div>
         {/*large device*/}
-        <div className="hidden lg:flex justify-between ">
+        <div className="hidden  w-full px-10 py-10 xl:p-20 2xl:justify-around 2xl:px-20 2xl:py-36 lg:flex justify-between items-center ">
           {/*left container*/}
-          <div className=" pl-10 pt-16 flex flex-col  h-[calc(100vh-60px)]   ">
+          <div className="   flex flex-col  ">
             
-            <div className="firstbox text-[35px] font-bold">
-              <div className="flex gap-2 items-center">
+            <div className="firstbox text-[45px] xl:text-[60px] 2xl:text-[75px] font-bold">
+              <div className="flex gap-2 items-center flex-wrap">
                 <div>Automate Your</div>
-                <div className=" relative h-[55px] overflow-y-hidden overflow-x-hidden w-[320px] lg:flex justify-start bg-white items-center ">
+                <div className=" relative h-[55px] xl:h-[65px] 2xl:h-[95px] overflow-y-hidden overflow-x-hidden w-[320px] xl:w-[440px] 2xl:w-[580px] lg:flex justify-start bg-white items-center ">
       {items.map((item, index) => (
         <div
           key={index}
           ref={(el) => (textRefs.current[index] = el)}
-          className="absolute translate-y-[50px]   text-center  text-[#FFA800] opacity-0"
+          className="absolute translate-y-[50px]   text-center  text-[#FFA800] z-[100] opacity-0"
            
         >
           {item}
@@ -139,11 +139,11 @@ export default function Hero() {
 
               <div>To Revolutionize Marketing</div>
             </div>
-            <div className="secbox py-8">
+            <div className="secbox py-10 2xl:text-xl ">
               Easily craft SEO-optimized blogs,engaging social posts, and
               effective emails <br></br>with AI-all from one platform.
             </div>
-            <div className="thirdbox  flex gap-5">
+            <div className="thirdbox 2xl:text-xl  flex gap-5">
              
               <button
   className="text-white bg-[#FFA800] border border-[#FFA800] hover:bg-white hover:text-[#FFA800] duration-300 hover:border-white px-6 py-3 rounded-full  hover:shadow-[0_0_5px_#FFA800]"
@@ -152,7 +152,8 @@ export default function Hero() {
 </button>
 
 
-              <button className="text-black font-semibold flex px-5 py-3 rounded-full border border-black hover:text-[#FAA800] duration-300 hover:border-[#FAA800] ">
+              <button className="text-black group  font-semibold flex px-5 py-3 rounded-full border border-black hover:text-[#FAA800] duration-300 hover:border-[#FAA800] ">
+                <div className='orange hidden group-hover:block'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -177,13 +178,27 @@ export default function Hero() {
                     </clipPath>
                   </defs>
                 </svg>
+                </div>
+                <div className='black group-hover:hidden '>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+<g clip-path="url(#clip0_780_2123)">
+<path d="M7.87354 6.25403V17.4983L17.2438 11.8762L7.87354 6.25403Z" fill="#2F2F2F"/>
+</g>
+<defs>
+<clipPath id="clip0_780_2123">
+<rect width="24.9863" height="24.9863" fill="white" transform="translate(0 0.631836)"/>
+</clipPath>
+</defs>
+</svg>
+
+                </div>
                 How It Work
               </button>
             </div>
             
           </div>
           {/*right container */}
-          <div className="w-[38%] bg-white relative overflow-y-hidden  overflow-x-hidden items-center  flex flex-col h-[calc(100vh-60px)] justify-center ">
+          <div className=" bg-white relative overflow-y-hidden z-0  overflow-x-hidden  ">
           <div ref={ballRef}  className="absolute -translate-y-[30%] translate-x-[20%] w-[700px]">
             <img src={ball} />
           </div>

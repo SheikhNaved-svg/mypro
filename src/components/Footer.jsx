@@ -3,7 +3,7 @@ export default function Footer(){
     return(
         <div className="relative font-custom ">
 
-            <div className="absolute p-20 hidden bg-[#2F2F2F] lg:flex justify-between w-[100%] text-white">
+            <div className="absolute p-20 hidden bg-[#2F2F2F] lg:flex justify-between 2xl:justify-around w-[100%] text-white">
                 {/*first*/}
 
                 

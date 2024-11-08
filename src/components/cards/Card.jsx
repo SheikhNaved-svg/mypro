@@ -3,15 +3,15 @@ export default function Card({ball}) {
   return (
       <div>
 
-    <div className="w-[100vw] flex justify-between overflow-x-hidden px-16 py-10 font-custom bg-white">
+    <div className="w-screen flex justify-between overflow-x-hidden px-16 py-10 2xl:py-24 2xl:px-36 font-custom bg-white">
      
      
       <div className="  w-[30%]  ">
-        <div className=" relative   group h-[340px] ">
+        <div className=" relative   group h-[340px] 2xl:h-[370px]">
           <div className="bg-[#FFA800] rounded-tl-[50px] rounded-br-[50px] w-[100%] right-2 top-2 absolute h-[100%] ease-in-out duration-300 group-hover:-translate-y-6"></div>
           <div className="bg-white border shadow-[2px_-2px_5px_#D3D3D3] rounded-tl-[50px] rounded-br-[50px] w-[100%] absolute h-[100%] pt-[140px] px-6 ease-in-out duration-300 group-hover:-translate-y-6">
-            <div className="px-3 pb-4 text-3xl">Story Engine</div>
-            <div className="px-3">
+            <div className="px-3 pb-4 font-medium text-3xl 2xl:text-5xl">Story Engine</div>
+            <div className="px-3 2xl:text-2xl">
               
             Curate content using a blend of AI tools and human creativity for superior content with Story Engine. 
             </div>
@@ -60,11 +60,11 @@ export default function Card({ball}) {
 
 
       <div className="  w-[30%]  ">
-        <div className=" relative   group h-[340px] ">
+        <div className=" relative   group h-[340px] 2xl:h-[370px] ">
           <div className="bg-[#FFA800] rounded-tl-[50px] rounded-br-[50px] w-[100%] right-2 top-2 absolute h-[100%] ease-in-out duration-300 group-hover:-translate-y-6"></div>
           <div className="bg-white border shadow-[2px_-2px_5px_#D3D3D3] rounded-tl-[50px] rounded-br-[50px] w-[100%] absolute h-[100%] pt-[140px] px-6 ease-in-out duration-300 group-hover:-translate-y-6">
-            <div className="px-3 pb-4 text-3xl">Story Builder</div>
-            <div className="px-3">
+            <div className="px-3 pb-4 text-3xl 2xl:text-5xl font-medium">Story Builder</div>
+            <div className="px-3 2xl:text-2xl">
             Sequence digital experiences for guided marketing journeys with Story Builder.
              
             </div>
@@ -90,11 +90,11 @@ export default function Card({ball}) {
 
 
       <div className="  w-[30%]  ">
-        <div className=" relative   group h-[340px] ">
+        <div className=" relative   group h-[340px] 2xl:h-[370px]">
           <div className="bg-[#FFA800] rounded-tl-[50px] rounded-br-[50px] w-[100%] right-2 top-2 absolute h-[100%] ease-in-out duration-300 group-hover:-translate-y-6"></div>
           <div className="bg-white border shadow-[2px_-2px_5px_#D3D3D3] rounded-tl-[50px] rounded-br-[50px] w-[100%] absolute h-[100%] pt-[140px] px-6 ease-in-out duration-300 group-hover:-translate-y-6">
-            <div className="px-3 pb-4 text-3xl">Story Teller</div>
-            <div className="px-3">
+            <div className="px-3 pb-4 text-3xl 2xl:text-5xl font-medium">Story Teller</div>
+            <div className="px-3 2xl:text-2xl">
               {" "}
               Measure engagement with comprehensive analytics and AI-powered
               feedback for intelligent insights with Story Teller.

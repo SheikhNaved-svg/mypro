@@ -41,7 +41,7 @@ export default function Form(){
 
         <div className="flex z-10 flex-col items-center lg:pt-28 px-6 gap-7 font-custom">
             <div className="font-semibold">Stay tuned</div>
-            <h1 className="font-bold text-3xl">We're launching soon</h1>
+            <h1 className="font-bold text-4xl">We're launching soon</h1>
             <p className="text-center">Be part of the revolution—Transform your digital strategy with Contrast.ai</p>
             <div className=' flex flex-col items-center gap-7 lg:gap-0 w-[100%] lg:flex-row mt-7 '>
             <input className="border border-gray-300 rounded-xl px-5 py-4 w-[100%] " type='email' placeholder="Enter you email ID" />

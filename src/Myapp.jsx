@@ -10,10 +10,11 @@ import Partener from "./components/Partener";
 import Footer from './components/Footer'
 
 import Hero from './components/Hero'
+
 function Myapp() {
  
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth ">
       <Navbar />
       <Hero />
       <Companylogo />
@@ -23,6 +24,7 @@ function Myapp() {
       <Mission />
       <Partener />
       <Form />
+      
       <Footer />
       
       

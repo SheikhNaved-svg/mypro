@@ -1,12 +1,12 @@
 import {img1,img2,img3,img4,img5,img6,img7,img8,img9} from '../assets/assets'
 export default function Partener(){
     return(
-        <div className='px-10 py-20 flex flex-col gap-12 items-center w-screen font-custom bg-white'>
-            <h1 className="text-3xl font-semibold font-custom md:hidden">
-                Trusted by Partners
+        <div className='px-10 xl:px-28 2xl:px-40 py-20 flex flex-col gap-16 items-center w-screen font-custom bg-white'>
+            <h1 className="text-3xl lg:text-6xl font-medium font-custom md:hidden lg:block">
+            Trusted by Partners
 
             </h1>
-            <h1 className='hidden md:block text-3xl font-semibold font-custom'>Our Trusted Partners</h1>
+            <h1 className='hidden md:block lg:hidden text-3xl font-semibold font-custom'>Our Trusted Partners</h1>
 
             <div className=' flex flex-col md:flex-row w-full md:justify-between  '>
                    <div className='md:w-[45%] md:border lg:border-0 md:border-[#FAA800] rounded-[20px] md:px-5 lg:px-10'>

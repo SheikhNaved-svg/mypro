@@ -9,7 +9,7 @@ export default function Companylogo() {
   });
 
   return (
-      <div className="overflow-x-hidden" >
+      <div className="overflow-x-hidden " >
     
     <div className="overflow-x-hidden font-custom  ">
     <div className="w-screen relative py-10 lg:py-0  bg-[#FFF7E7] lg:bg-white lg:flex lg:items-center overflow-x-hidden">
@@ -32,7 +32,7 @@ export default function Companylogo() {
 
 
       <div className="px-2 lg:w-[30%] lg:px-5 z-10 lg:bg-white lg:py-4  ">
-        <p className=" text-center">
+        <p className=" text-center 2xl:text-2xl">
           Join more than{" "}
           <span className="text-[#FFA800] font-bold text-3xl">
             <br className="hidden lg:block"></br>100+
