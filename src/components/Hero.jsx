@@ -115,7 +115,7 @@ export default function Hero() {
 
         </div>
         {/*large device*/}
-        <div className="hidden  w-full px-10 py-10 xl:p-20 2xl:justify-around 2xl:px-20 2xl:py-36 lg:flex justify-between items-center ">
+        <div className="hidden bg-red-500  w-full px-10 py-10 xl:p-20 2xl:justify-around 2xl:px-20 2xl:py-36 lg:flex justify-between items-center ">
           {/*left container*/}
           <div className="   flex flex-col  ">
             
