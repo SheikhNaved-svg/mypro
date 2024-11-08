@@ -9,7 +9,7 @@ export default function Companylogo() {
   });
 
   return (
-      <div className="overflow-x-hidden " >
+      <div className="overflow-x-hidden w-screen" >
     
     <div className="overflow-x-hidden font-custom  ">
     <div className="w-screen relative py-10 lg:py-0  bg-[#FFF7E7] lg:bg-white lg:flex lg:items-center overflow-x-hidden">
